@@ -1,7 +1,7 @@
 {
   "general": {
     "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "ttsMode": "PRESS",
@@ -21,10 +21,10 @@
   },
   "overlay": {
     "alpha": 0.5,
-    "iconMode": "TOP",
+    "iconMode": "CENTERED",
     "animation": true,
     "disappearingDelay": 0.0,
-    "overlaySquare": false,
+    "overlaySquare": true,
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "overlayPosY": 1.0,
