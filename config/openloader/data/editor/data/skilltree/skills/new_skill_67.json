@@ -1,0 +1,84 @@
+{
+  "id": "skilltree:new_skill_67",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "27e443c4-86a8-450b-88e8-9d51eba6b645",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:poison",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "f4051f61-9fa6-4054-9e17-60e593fa9ae7",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:wither",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "b4384ca4-4e93-4577-882e-fe4c278a3e9a",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:weakness",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "a494b126-3ca5-4d4a-a926-5974e63f0e44",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "minecraft:darkness",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_62"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_healing_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Исцеление Тьмой",
+  "titleColor": "",
+  "positionX": 760.0,
+  "positionY": 120.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

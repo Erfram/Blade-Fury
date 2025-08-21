@@ -1,0 +1,119 @@
+{
+  "id": "skilltree:new_skill_31",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.2,
+      "effect": "born_in_chaos_v1:bone_chilling",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "attribute": "minecraft:generic.attack_speed",
+          "min": 1.7,
+          "type": "skilltree:attribute_value"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.5,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "947716a6-2209-4527-ac80-df15ee5bb359",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": 0.25
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "b8977a71-16ac-4f45-9866-91f85c865e4d",
+      "name": "Skill",
+      "amount": -0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.armor",
+        "min": 21.0,
+        "type": "skilltree:attribute_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "597b0c87-f2a0-49aa-b55c-f222e56f357d",
+      "name": "Skill",
+      "amount": -0.8,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.attack_speed",
+        "max": 1.5,
+        "type": "skilltree:attribute_value"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_25"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Архетип"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Ночной Клинок",
+  "titleColor": "",
+  "positionX": 460.0,
+  "positionY": -45.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

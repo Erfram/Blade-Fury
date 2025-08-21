@@ -1,0 +1,92 @@
+{
+  "id": "skilltree:new_skill_10",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:max_strikes",
+      "id": "ae05e6fb-85ec-4e60-b743-41167cd2db38",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "106f0fd3-3d5c-4000-ba53-73de7bd232c6",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "b147c5a9-6389-4613-8073-6cb0a59240fa",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "7350eaa5-67b3-4e1b-9a55-a701faadb2bf",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "ce821745-5df4-4291-b7ce-5b62c17f1045",
+      "name": "Skill",
+      "amount": -0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_9"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Специализация"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Рыцарь",
+  "titleColor": "",
+  "positionX": 250.0,
+  "positionY": 75.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

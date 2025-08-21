@@ -1,0 +1,144 @@
+{
+  "id": "skilltree:new_skill_126",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.01,
+      "effect": "minecraft:resistance",
+      "duration": 72000,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.01,
+      "effect": "dungeons_and_combat:ammit_edge",
+      "duration": 72000,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "effect": "minecraft:resistance",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    },
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.005,
+      "effect": "minecraft:regeneration",
+      "duration": 72000,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "effect": "dungeons_and_combat:ammit_edge",
+          "amplifier": 0,
+          "type": "skilltree:has_effect"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "type": "skilltree:on_kill"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "dcdb7827-fcc0-43ec-9976-2502f79c72bc",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "dungeons_and_combat:ammit_edge",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "6a729eb4-9d9f-4e6d-8b55-86c7c72315a5",
+      "name": "Skill",
+      "amount": -0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "ccb02ca9-6f47-4575-bb10-c8707446637b",
+      "name": "Skill",
+      "amount": -0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_84",
+    "skilltree:new_skill_84"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_offensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Кровавая Награда",
+  "titleColor": "",
+  "positionX": -510.0,
+  "positionY": -120.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

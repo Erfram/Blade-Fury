@@ -1,0 +1,80 @@
+{
+  "id": "skilltree:new_skill_108",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 1.0,
+      "effect": "irons_spellbooks:true_invisibility",
+      "duration": 80,
+      "amplifier": 0,
+      "event_listener": {
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:evasion"
+      }
+    },
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.6,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "irons_spellbooks:true_invisibility",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "84a7884a-6856-42d7-b71a-bd034373d91a",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "effect": "born_in_chaos_v1:snow_storm",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_102"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Слияние с Тенями",
+  "titleColor": "",
+  "positionX": 760.0,
+  "positionY": -30.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

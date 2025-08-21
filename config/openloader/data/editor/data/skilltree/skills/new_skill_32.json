@@ -1,0 +1,100 @@
+{
+  "id": "skilltree:new_skill_32",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.25,
+      "effect": "dungeons_and_combat:poisoned_edge",
+      "duration": 100,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "attribute": "minecraft:generic.attack_speed",
+          "min": 1.7,
+          "type": "skilltree:attribute_value"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "41ba1f6b-addc-4df4-8f3c-213381189d34",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": 0.25
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "35c61f79-7e89-4553-91aa-42aff843a5ee",
+      "name": "Skill",
+      "amount": -0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.armor",
+        "min": 21.0,
+        "type": "skilltree:attribute_value"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "8fc87079-38ef-4aea-b0b9-4b7d15404c80",
+      "name": "Skill",
+      "amount": -0.8,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "attribute": "minecraft:generic.attack_speed",
+        "max": 1.5,
+        "type": "skilltree:attribute_value"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_25"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "Архетип"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Мастер Ядов",
+  "titleColor": "",
+  "positionX": 460.0,
+  "positionY": -105.0,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

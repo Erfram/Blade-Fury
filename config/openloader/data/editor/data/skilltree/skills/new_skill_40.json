@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_40",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "6261a7c5-f5e3-41b8-9df8-a2e7dc1abff7",
+      "name": "Skill",
+      "amount": 0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "2cd30723-043b-419a-8cea-dc834eff6ea2",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Живучесть",
+  "titleColor": "",
+  "positionX": -280.0,
+  "positionY": 95.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
