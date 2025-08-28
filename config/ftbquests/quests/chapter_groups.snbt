@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "643B28D2CCAEFF19", title: "I. Начало" }
+		{ id: "68D5EA53A95D0E0A", title: "II. Путь Героя" }
+		{ id: "010B9EBFA92E79B9", title: "III. Новое Начало" }
+		{ id: "07238C0D055A651F", title: "IV. Конец Пути" }
+	]
+}

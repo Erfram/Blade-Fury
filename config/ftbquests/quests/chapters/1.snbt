@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "643B28D2CCAEFF19"
+	id: "27A541C8B0260A17"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Оказавшись в новом для себя мире, единственное что я для себя знаю это то, что некогда величественная и священная земля называемая - &lХалиндор&r, находится в состоянии упадка и именует себя &lНуур&r - земля покинутая светом."]
+			id: "2F3BEB0001453395"
+			tasks: [{
+				id: "51273C5A03D43005"
+				title: "Кто я?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			description: ["Изучив окрестности"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "495B9FFC751FBDC1"
+			rewards: [
+				{
+					id: "68DA28105F44DCA6"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "520CC58CEC60B3F9"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4B5BEFE2118E1B4C"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "7FCD5BC496248E19"
+					item: "comforts:sleeping_bag_red"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "665BF93E5B5876FB"
+				title: "Что в карманах?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: {
+				Count: 1
+				id: "blade_fury:flask"
+				tag: {
+					Potion: "minecraft:water"
+					charge: 3
+					owner: [I;
+						973710325
+						-217297069
+						-1902389545
+						-2103067215
+					]
+				}
+			}
+			id: "346C3D906C1E461E"
+			rewards: [{
+				count: 2
+				id: "204893F8FA710440"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "554EB05636EEB323"
+				title: "Регенерация"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6306BFCD20A593ED"]
+			icon: "waystones:waystone"
+			id: "51FAA3FF4364BBCC"
+			rewards: [
+				{
+					id: "16A99B50A6A7A9AD"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "71C3B00CB9BA1B99"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AEBC4410EBCDD03"
+				title: "Перемещение"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: "farmersdelight:hot_cocoa"
+			id: "6306BFCD20A593ED"
+			tasks: [{
+				id: "030C8E8EBF14A8F9"
+				title: "Дом, Милый Дом"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: {
+				Count: 1
+				id: "epicfight:iron_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1531BC6AF2593A8E"
+			rewards: [{
+				id: "70201EE7D296FAAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E2F1712959B20BB"
+				title: "Боёвка"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1531BC6AF2593A8E"]
+			icon: "minecraft:skull_pottery_sherd"
+			id: "4A5E35024D19F0D6"
+			rewards: [{
+				id: "7154E50E4C2780DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C784E9F79B0F90F"
+				title: "Руины прошлого"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: "minecraft:recovery_compass"
+			id: "6E8ECAE119C1A419"
+			rewards: [{
+				id: "7764B541EBAD0C4D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D1216B462D4A086"
+				title: "Конец?"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: "skilltree:wisdom_scroll"
+			id: "1754D2773F1A18CB"
+			rewards: [{
+				id: "132E95B1C887F4A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C4562855E4370B6"
+				title: "Способ сражаться"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: "minecraft:rabbit_stew"
+			id: "02E8B878FE912B35"
+			rewards: [
+				{
+					id: "20794BABC17462CA"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "596F4B37CEBACF4A"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59FD113514E46F0E"
+				title: "Еда"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F3BEB0001453395"]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "499D791D88921A66"
+			rewards: [{
+				id: "6E90949E8FB292AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0DC729F54FC05F87"
+				title: "Око"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "1. Начало Пути"
+}
